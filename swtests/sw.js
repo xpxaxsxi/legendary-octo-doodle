@@ -30,7 +30,7 @@
       }
       else
       {
-	event.respondWith(new Response("You are served Sir or Madam from a service worker :)"));
+	event.respondWith(new Response("You are served Sir or Madam from a service worker :) \r\n"+url.search));
 
       }
     });
