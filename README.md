@@ -1,1 +1,1 @@
-Learning about setting up an simple service worker
+Personal learning about setting up a simple service worker in a https server, localhost already worked.
