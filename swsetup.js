@@ -3,7 +3,7 @@
 const registerServiceWorker = async () => {
   if ("serviceWorker" in navigator) {
     try {
-      const registration = await navigator.serviceWorker.register("/legendary-octo-doodle/swtests/sw.js");
+      const registration = await navigator.serviceWorker.register("/legendary-octo-doodle/main/swtests/sw.js");
       if (registration.installing) {
         console.log("Service worker installing");
       } else if (registration.waiting) {
