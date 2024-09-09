@@ -14,7 +14,7 @@
       console.log('Fetch intercepted for:', event.request.url);
 
       var  url = new URL(event.request.url);
-      if( url.search == null)
+      if( url.search === '')
       {
 
          // Optionally respond with something, or let the request pass through
